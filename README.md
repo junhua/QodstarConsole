@@ -1,9 +1,9 @@
-# Qodstar Console.
+# Qodstar Console
 
 Qodstar's console, built with React and Redux
 
 
-#### Familiar with Git?
+#### Getting started
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
