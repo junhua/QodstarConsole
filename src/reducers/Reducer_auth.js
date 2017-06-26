@@ -1,9 +1,9 @@
 import _ from 'lodash';
-import { LOGIN } from '../actions';
+import { LOGIN_AUTH } from '../actions';
 
 export default function (state = {}, action) {
     switch (action.type) {
-        case LOGIN:
+        case LOGIN_AUTH:
             return state;
 
         default:
