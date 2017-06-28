@@ -12,6 +12,8 @@ import JobsListPage from './components/jobs_page';
 
 import reducers from './reducers';
 
+
+
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 ReactDOM.render(
@@ -19,6 +21,8 @@ ReactDOM.render(
           <BrowserRouter>
               <div>
                   <Switch>
+                      {/* <Route path="/posts" component={PostsIndex} /> */}
+
                       <Route path="/jobs" component={JobsListPage} />
                       <Route path="/" component={LoginPage} />
                       {/* <Route path="/" component={Home} /> */}

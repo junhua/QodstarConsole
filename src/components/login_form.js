@@ -21,7 +21,8 @@ class LoginForm extends React.Component {
 
     onSubmit(values) {
         this.props.login(values, () => {
-            browserHistory.push("/jobs");
+            this.props.history.push("/jobs");
+            // browserHistory.push("/jobs");
         });
     }
 
